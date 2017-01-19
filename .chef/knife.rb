@@ -7,3 +7,4 @@ node_name                "kuzma"
 client_key               "#{current_dir}/kuzma.pem"
 chef_server_url          "https://api.chef.io/organizations/kharkivdevops"
 cookbook_path            ["#{current_dir}/../cookbooks"]
+knife[:editor] = "vim"
