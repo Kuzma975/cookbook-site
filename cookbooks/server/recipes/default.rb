@@ -15,6 +15,6 @@ directory node['nginx']['default_root'] do
 end
 
 template "#{node['nginx']['default_root']}/index.html" do
-    source 'default/default.erb'
+    source 'default.erb'
     mode '0755'
 end
