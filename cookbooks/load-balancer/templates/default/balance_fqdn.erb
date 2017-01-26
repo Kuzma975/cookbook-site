@@ -1,0 +1,5 @@
+upstream default {
+<% @serv.each do |n| -%>
+    server <%= n['fqdn'] %>:<%= n['port'] %>;
+<% end -%>
+}
