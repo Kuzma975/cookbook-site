@@ -1,0 +1,15 @@
+{
+  "name": "dev",
+  "description": "environment for developers",
+  "cookbook_versions": {
+        "test-search", "= 0.1.2"
+  },
+  "json_class": "Chef::Environment",
+  "chef_type": "environment",
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  }
+}
